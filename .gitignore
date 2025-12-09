@@ -1,0 +1,14 @@
+# Ignore directories specified by user
+data/
+old_charts/
+
+# Ignore Python cache files (standard practice)
+__pycache__/
+*.pyc
+
+# Ignore environment variables file (contains secrets, never upload this!)
+.env
+
+# Ignore large data files at the root level
+# (It is highly recommended not to upload huge CSVs to standard GitHub)
+2024_US_County_Level_Presidential_Results.csv
